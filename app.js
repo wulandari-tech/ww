@@ -231,7 +231,7 @@ app.get('/pricing', isAuthenticated, async (req, res) => {
 app.get('listuser', isAuthenticated, async (req, res) => {
   let { username, email } = req.user
   let List = await User.find({})
-  if (username !=='triya.') return res.redirect('/docs');
+  if (username !=='wanz.') return res.redirect('/docs');
   res.render('listuser', {
        List,
        username,
@@ -242,7 +242,7 @@ app.get('listuser', isAuthenticated, async (req, res) => {
 
 app.get('index', isAuthenticated, async(req, res) => {
   let { username, email } = req.user
-  if (username !=='triya.') return res.redirect('/docs');
+  if (username !=='wanz.') return res.redirect('/docs');
   res.render('index', {
        username,
        email,
