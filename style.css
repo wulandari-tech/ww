@@ -1,0 +1,36 @@
+my-app/
+│
+├── api.js                 # File untuk API routes
+├── users.js               # File untuk Users routes
+├── verify.js              # File untuk Verification routes
+├── premium.js             # File untuk Premium routes
+├── User.js                # User model (misalnya menggunakan MongoDB)
+├── db.js                  # File untuk fungsi pengecekan dan lainnya terkait database
+├── auth.js                # File untuk middleware autentikasi
+├── connect.js             # Koneksi ke database
+├── settings.js            # Pengaturan port dan lainnya
+├── config.js              # Konfigurasi passport atau lainnya
+├── index.ejs              # View untuk halaman index
+├── docs.ejs               # View untuk halaman docs
+├── profile.ejs            # View untuk halaman profile
+├── downloader.ejs         # View untuk halaman downloader
+├── searching.ejs          # View untuk halaman searching
+├── randomimage.ejs        # View untuk halaman randomimage
+├── animanga.ejs           # View untuk halaman animanga
+├── stalking.ejs           # View untuk halaman stalking
+├── creator.ejs            # View untuk halaman creator
+├── entertainment.ejs      # View untuk halaman entertainment
+├── primbon.ejs            # View untuk halaman primbon
+├── other.ejs              # View untuk halaman other
+├── changelog.ejs          # View untuk halaman changelog
+├── pricing.ejs            # View untuk halaman pricing
+├── listuser.ejs           # View untuk halaman listuser
+├── notfound.ejs           # View untuk halaman notfound
+├── layout.ejs             # Layout template untuk EJS
+├── app.js                 # File utama aplikasi Express
+├── public/                # Folder untuk file statis (CSS, JS, images)
+│   ├── css/              
+│   ├── js/               
+│   └── images/
+├── package.json           # File untuk dependensi dan pengaturan project
+└── .env                   # File untuk menyimpan konfigurasi sensitif (seperti API keys)
